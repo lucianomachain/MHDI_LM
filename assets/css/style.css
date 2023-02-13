@@ -1,0 +1,44 @@
+.container {
+    position:relative;
+  }
+
+.top-left {
+    position:absolute;
+    top: -20px;
+    left: 8px;
+    color: blue;
+    font-size: 50px;
+  }
+
+.title {
+    background-color:blue;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+  }
+
+nav a {
+    text-decoration: none;
+    display: block;
+    width: 10rem;
+    height: 2rem;
+    margin: 8px;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bolder;
+    background-color: blue;
+    color: white;
+    border-radius: 1rem;
+    border-bottom: 4px solid black;
+    padding: 10px;
+ 
+
+  
+  }
+  
+
+nav a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
