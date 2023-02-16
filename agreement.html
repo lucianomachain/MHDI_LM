@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agreement</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+    
+</head>
+
+<body>
+   
+
+    <div class="container">
+        <img src="./assets/images/hockey3.jpg" alt="image1" id="image1" style="width:100%; height:300px">
+        <h1 class="top-left">Mighty Ducks Hockey League</h1>
+    </div>
+        <img src="./assets/images/LogoMightyducks-01.png" alt="logo" id="logo" style="width:10%; float:right">
+        <h2 class="title">Registration Form</h2>
+    
+        <div class="flex-container">
+            <div>
+                <nav>
+                    <ul>    
+                        <a href="index.html">Home</a>  
+                        <a href="info.html">Game Information</a>  
+                        <a href="rules.html">Rules</a>  
+                        <a href="agreement.html">Agreement Form</a>  
+                        <a href="about.html">About MDHL</a>  
+                        <a href="contact.html">contact</a>  
+                        
+                    </ul>
+                </nav>
+            </div>
+            <div>
+
+                <h1>Please Complete Registration Form</h1>
+                <p style="color:red;"><strong>* Requiered fields</strong></p>
+            
+                <div class="container2">
+            
+                    <form action="./show_data.html">
+                        <fieldset>
+                            <legend><strong>Personal Information</strong></legend>
+                            <br>
+            
+                            <label for="fname">Player´s First Name: <text style="color:red">*</text></label>
+                            <input required name="first_name" type="text" id="fname"><br>
+                            
+                            <label for="lname">Player´s Last Name: <text style="color:red">*</text></label>
+                            <input required name="last_name" type="text" id="lname"><br>
+                            
+                            <label for="address">Street Address: <text style="color:red">*</text></label>
+                            <input required name="address" type="text" id="address"><br>
+                            
+                            <label>
+                                Email: <text style="color:red">*</text>
+                                <input required name="email" type="email">
+                            </label><br>
+            
+                            <label for="city">City: <text style="color:red">*</text></label>
+                            <input required name="city" type="text" id="city"><br>
+                            
+                            <label for="zip">Zip Code: <text style="color:red">*</text></label>
+                            <input required name="zip_code" type="text" id="zip"><br>
+                            
+                            <label> Birth Date (mm/dd/yyy):
+                                <input type="date">
+                            </label>
+                            
+                            <p>Gender:</p>
+                            <label id="radio_button"><input type="radio" name="sex" value="Female">Female</label>
+                            
+                            <label id="radio_button"><input type="radio" name="sex" value="Male">Male</label>
+                            
+                            <p>Grade:</p>
+                            <select name="Grade" id="large">
+                                <option selected disabled></option>
+                                <option value="Pre_school">Pre-School</option>
+                                <option value="1st">1st.</option>
+                                <option value="2nd">2nd.</option>
+                                <option value="3rd">3rd.</option>
+                                <option value="4th">4th.</option>
+                                <option value="5th">5th.</option>
+                                
+                            </select>
+                        </fieldset>
+                        <br>
+            
+                        <fieldset>
+                            <legend><strong>Which elementary school do you live near?</strong></legend>
+                           
+                            <p>Closest School:</p>
+                            <select name="Schools" id="large">
+                                <option selected disabled></option>
+                                <option value="AJ Katsenmaier">AJ Katsenmaier</option>
+                                <option value="Greenbay">Greenbay</option>
+                                <option value="Howard A Yeager">Howard A Yeager</option>
+                                <option value="Marjorie P Hart">Marjorie P Hart</option>
+                                <option value="North Elementary">North Elementary</option>
+                                <option value="South Elementary">South Elementary</option>
+                                
+                            </select>
+
+                        </fieldset>
+
+                        <br>
+                        <fieldset>
+                            <legend><strong>What position(s) do you normally play (check all that apply)?</strong></legend>
+                           
+                                <select name="position" id="large">
+                                <option selected disabled></option>
+                                <option value="Forward">Forward</option>
+                                <option value="Defense">Defense</option>
+                                <option value="Midfield">Midfield</option>
+                                <option value="Goalkeeper">Goalkeeper</option>
+                                
+                            </select>
+
+                        </fieldset>
+
+                        <br>
+                        <fieldset>
+                            <legend><strong>Select uniform size</strong></legend>
+                           
+                                <select name="uniform_size" id="large">
+                                <option selected disabled></option>
+                                <option value="Youth Small">Youth Small</option>
+                                <option value="Youth Medium">Youth Medium</option>
+                                <option value="Youth Large">Youth Large</option>
+                                <option value="Small">Small</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Large">Large</option>
+                                <option value="Extra-Laege">Extra-Large</option>
+                                
+                            </select>
+
+                        </fieldset>
+                       
+                        <h3>Permission to play</h3>
+                        <p style="text-align:justify">
+                        I, the parent of guardian of the minor registrant, agree that the registrant and I will
+                        abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of
+                        physial injury associated with hockey and in consideration fot the "League"
+                        accepting the registrant fot its hockey programs and activities, I hereby realese,
+                        discharge, and/or otherwise indemnify MDHL,
+                        their employees and associated personnel and volunteers, including the facilities used for
+                        preactces, and games, against any claim by or on behalf of the registrant as a result of the
+                        registrant's participation in the programand/orbeing transported to or from MDHL sponsored
+                        activities, which transportation.
+
+                        </p>
+                        <p style="text-align:justify">
+                            By signing below, I herebyagree anddauthorizethe above. In adition,
+                            by signing below, I also acknoledge that I have the cancellation policy agree to its terms.
+                        </p>
+
+                        <label for="sign">Parent/Guardian Signature: <text style="color:red">*</text></label>
+                            <input required name="Signature" type="text" id="fname"><br>
+                            
+                        <label> Date (mm/dd/yyy): <text style="color:red">*</text>
+                            <input required type="date">
+                        </label>
+        
+
+                        <br>
+                        <input type="submit" value="Send registration form">
+                    </form>
+
+            </div>
+            
+            
+        </div> 
+
+        
+
+</body>
+
+<footer >
+  
+</footer>
+
+
+
+
+
+</html>
